@@ -12,3 +12,5 @@ It is not clear where the wrong code is. The stack is:
 
 Last working set is: Espressif32 6.4.0, ESP Arduino: 2.0.11, ESP-IDF: 4.4.5  
 The first non working set is: Espressif32 6.5.0, ESP Arduino: 2.0.14, ESP-IDF: 4.4.6
+
+To check how the ADC instruction relates to the bug, use the variable "ulp_do_adc" in the code to easily try the project with and without this function.
